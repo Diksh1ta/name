@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.container
+{
+
+    display: flex;
+    height: 600px;
+    width: 1000px;
+border:1px solid black;
+    margin: auto ;
+    margin-top: 50px;
+    box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.05);
+}
+    .field
+    {
+        font-size: 12px;
+     margin-bottom: -20px;
+    margin-right:200px;
+    padding:15px;
+    
+ 
+    }
+
+.force
+{
+    margin-bottom: -20px;
+    font-size: 12px;
+font-family: sans-serif;
+    margin-right:200px;
+    padding:15px;
+   
+}
+.form{
+   display: flex;
+    flex-direction: column;
+    width: 55%;
+background-color: white; 
+align-items: center; 
+}
+.icon
+{
+    display: flex;
+    position: relative;
+    justify-content: center;
+   margin:10px 8px 6px;
+   text-decoration: none;
+   color:darkgoldenrod;
+   
+
+   
+    align-items: center;
+}
+.form h2{
+   
+   margin-top: 50px;
+   
+margin-right: 150px;
+color: darkgoldenrod;
+}
+
+
+.box
+{
+    padding:12px;
+    width: 70%;
+    margin-top: 70px;
+    margin: 15px;
+    border:1px solid black;
+    outline: none;
+    border-radius: 28px;
+    border: none;
+    background-color: whitesmoke;
+    box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.05);
+
+
+}
+.submit
+{
+    padding: 12px 30px;
+    width: 70%;
+    margin-top: 40px;
+    background-color: darkgoldenrod;
+    color: white;
+    font-weight: bold ;
+    border-radius: 20px;
+    border:none;
+    box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.05);
+
+}
+.submit:hover{
+    cursor: pointer;
+    background-color: black;
+}
+.remember
+{
+   display:flex;
+   justify-content: space-between; 
+   margin-bottom: 40px;
+   color: darkgoldenrod;
+}
+section{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    
+}
+#check
+{
+    margin-right: 10px;
+
+}
+a{
+    text-decoration: none;
+    margin-left: 100px;
+    color:#555;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.side
+{
+ width: 50%;
+    background-color: darkgoldenrod;
+    box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.05);
+
+}
+.side h1{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 150px;
+    text-align: center;
+    color: white;
+}
+.side h4{
+    font-family: 'Times New Roman', Times, serif;
+   
+    text-align: center;
+    color: white;
+}
+.side .submit{
+    width: 20%;
+    border:1px solid white;
+    padding: 12px;
+    margin-left:150px;
+}
